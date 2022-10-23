@@ -1,0 +1,14 @@
+.elements__card {
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    display: grid;
+    grid-template-rows: 282px 1fr;
+    overflow: hidden;
+    position: relative;
+}
+
+.elements__card:hover {
+    cursor: pointer;
+}

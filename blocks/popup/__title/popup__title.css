@@ -1,22 +1,17 @@
 .popup__title {
-  font-family: "Inter";
-  font-size: 24px;
-  font-weight: 900;
-  line-height: 29px;
-  width: 330px;
-  margin: 34px 64px 54px 36px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    max-width: 330px;
+    padding-bottom: 54px;
+    margin: 0;
 }
 
-@media screen and (max-width: 600px) {
-  .popup__title {
-    margin: auto;
-    max-width: 238px;
-    text-align: left;
-    margin-top: 25px;
-    margin-bottom: 0;
-    font-family: "Inter";
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 22px;
-  }
+@media screen and (max-width: 699px) {
+    .popup__title {
+        font-size: 18px;
+        line-height: 22px;
+        padding-bottom: 75px;
+    }
 }
